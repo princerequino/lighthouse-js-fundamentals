@@ -10,5 +10,9 @@ if (temperature < 0) {
 
 console.log("Now you're ready to go outside!");
 
-git add conditionals.js
-git commit -m "Use conditionals to tell people about the weather"
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
